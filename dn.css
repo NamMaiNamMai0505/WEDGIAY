@@ -1,0 +1,76 @@
+.login
+{
+    width: 400px;
+    height: 500px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+     text-align: center;
+    letter-spacing: 0.2rem;
+    background-color: rgba(127, 255, 212, 0.526);
+}
+h2
+{
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login input
+{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid green;
+    padding-left: 20px;
+}
+.login button
+{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(12, 151, 70);
+    justify-content: space-around;
+}
+.login button:hover
+{
+    justify-content: space-around;
+    font-size: 15px;
+}
+.google button
+{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(226, 12, 12);
+}
+.face button
+{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+}
+body{
+    text-align: center;
+    background-image: url(./spnhiu/bia.jpg);
+    display: grid;
+    place-items: center ;
+    margin-bottom: 0.5rem;
+}
+img{
+    width: 32px;
+    height: 30px;
+}

@@ -1,0 +1,205 @@
+.menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+  }
+.menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+.menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+.khung{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 250px ;
+    grid-template-areas: 
+    "logo"
+    "t1"    
+    "t2"
+    "t3"
+    "t4"
+    "t5"
+    "t6"
+    "t7";
+
+}
+.logo{
+    grid-area: logo;
+    font-size: 45px;
+    background-image: linear-gradient(#F15454 , #D15FD0, #3646E2);
+}
+.logo a{
+    font-family: 'Rampart One', cursive;
+    color: #333;
+    text-shadow: 2px 2px black;
+}
+.khung2{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 455px 250px 200px;
+    grid-template-areas:
+    "h1 h2 h3"
+    "h4 h5 h6";
+}
+.t7{
+    background-color: #333;
+    grid-area: t7;
+}
+.t1{
+    grid-area: t1;
+}
+.t2{
+    grid-area: t2;
+}
+.t3{
+    grid-area: t3;
+}
+.t4{
+    background-color: rgb(97, 174, 174);
+    grid-area: t4;
+}
+.t5{
+    background-color: rgb(95, 97, 99);
+    grid-area: t5;
+}
+.t6{
+    background-color: #333;
+    grid-area: t6;
+}
+.h1{
+    grid-area: h1;
+}
+.h2{
+    grid-area: h2;
+}
+.h3{
+    grid-area: h3;
+}
+
+.h4{
+    grid-area: h4;
+}
+.h5{
+    grid-area: h5;
+}
+.h6{
+    grid-area: h6;
+}
+.khung2 p{
+    font-size: 22px;
+}
+.khung3{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-areas:
+    "xemthem tt hot";
+}
+.xemthem{
+    text-align: left;
+    color: white;
+    grid-area: xemthem;
+}
+.hot{
+    color: red;
+    grid-area: hot;
+}
+.tt{
+    text-align: left;
+    color: aqua;
+    grid-area: tt;
+}
+.hot img{
+    width: 50px;
+    height: 50px;
+}
+.t7 p{
+    font-size: small;
+    text-align: left;
+    color: white;
+}
+.hot:hover{
+    font-size: 20px;
+}
+.tt ul li:hover{
+    font-size: 15px;
+    color: rgb(168, 11, 11);
+}
+.xemthem ul li:hover{
+    color: #1F568B;
+    font-size: 15px;
+}
+.khungtv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-template-areas: "hinhtv1 hinhtv2 hinhtv3";
+}
+.hinhtv1{
+    grid-area: hinhtv1;
+}
+.hinhtv2{
+    grid-area: hinhtv2;
+}
+.hinhtv3{
+    grid-area: hinhtv3;
+}
+.hien{
+    display: none;
+}
+.hinhtv1:hover .hien{
+    display: block;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hinhtv2:hover .hien{
+    display: block;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hinhtv3:hover .hien{
+    display: block;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hinhtv1:hover{
+    border: 1px solid black;
+    background-image:linear-gradient(rgb(196, 230, 239),rgb(107, 206, 234),rgb(23, 150, 185)) ;
+}
+.hinhtv2:hover{
+    border: 1px solid black;
+    background-image:linear-gradient(rgb(239, 196, 233),rgb(222, 101, 206),rgb(203, 27, 179)) ;
+}
+.hinhtv3:hover{
+    border: 1px solid black;
+    background-image:linear-gradient(rgb(202, 236, 207),rgb(120, 229, 137),rgb(30, 196, 55)) ;
+}
+.khungtv img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.tt a{
+    text-decoration: none;
+}

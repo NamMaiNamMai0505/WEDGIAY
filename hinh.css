@@ -1,0 +1,54 @@
+.menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+  }
+.menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+.menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  body{
+      background-color: rgb(148, 123, 123);
+  }
+  .t4 button{
+      width: 240px;
+      height: 50px;
+      border-radius: 10px;
+      text-align: center;
+      background-color: aqua;
+  }
+  .khung{
+    height: auto;
+    color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 85px ;
+  grid-template-areas: 
+  "t1"
+  "t2"
+  "t3"
+  "t4";
+}
+.t4 button:hover{
+    font-size: 20px;
+    width: 300px;
+    border: 2px solid red;
+}

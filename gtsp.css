@@ -1,0 +1,317 @@
+
+.menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+  }
+.menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+.menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+.h3{
+    color: rgb(171, 51, 51);
+}
+  .khung{
+      background-color: rgb(52, 46, 46);
+      height: 1000px;
+      color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 85px ;
+    grid-template-areas: 
+    "t1"
+    "t2"
+    "t3"
+    "t4"
+    "t5"
+    "t6"
+    "t7";
+
+}
+.size{
+    background-color: rgb(81, 82, 83);
+    text-align: left;
+    border: 1px solid black;
+}
+.size button{
+    background-color: #4e9be7;
+}   
+.size button:hover{
+    border: 2px solid red;
+}
+.t1{
+    grid-area: t1;
+}
+.t2{
+    grid-area: t2;
+}
+.t3{
+    width: auto;
+    height: 50px;
+    grid-area: t3;
+    text-align: left;
+}
+.t4{
+    grid-area: t4;
+}
+.t5{
+    grid-area: t5;
+}
+.chu1{
+    text-align: left;
+}
+.khung4{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(52, 46, 46);
+    display: grid;
+    grid-template-columns: 2fr  ;
+    grid-template-rows: 80px;
+    grid-template-areas:
+    "hang1"
+    "hinhgiay1"
+    "hang2"
+    "hinhgiay2"
+    "hang3"
+    "hinhgiay3"
+    "hang4"
+    "hinhgiay4"
+    "hang5"
+    "hinhgiay5"
+    "hang6"
+    "hinhgiay6"
+    ;
+}
+
+.hinhgiay1
+{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr  ;
+    grid-template-rows: 450px;
+    grid-template-areas:
+    "hinh1 hinh2 hinh3 hinh4";
+}
+.hinhgiay2
+{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr  ;
+    grid-template-rows: 450px;
+    grid-template-areas:
+    "hinh5 hinh6 hinh7 hinh8";
+}
+.hinhgiay3
+{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-rows: 450px;
+    grid-template-areas:
+    "hinh9 hinh10 hinh11 hinh12";
+}
+.hinhgiay4
+{
+    margin: 0px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 450px;
+    grid-template-areas:
+    "hinh13 hinh14 hinh15 hinh16";
+}
+img{
+    width: 350px;
+    height: 240px;
+}
+.hinhgiay5
+{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr  ;
+    grid-template-rows: 450px;
+    grid-template-areas:
+    "hinh17 hinh18 hinh19 hinh20";
+}
+.hinhgiay6
+{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr  ;
+    grid-template-rows: 450px;
+    grid-template-areas:
+    "hinh21 hinh22 hinh23 hinh24";
+}
+.hinh1{
+    grid-area: hinh1;
+}
+.hinh2{
+    grid-area: hinh2;
+}
+.hinh3{
+    grid-area: hinh3;
+}
+.hinh4{
+    grid-area: hinh4;
+}
+.hinh5{
+    grid-area: hinh5;
+}
+.hinh6{
+    grid-area: hinh6;
+}
+.hinh7{
+    grid-area: hinh7;
+}
+.hinh8{
+    grid-area: hinh8;
+}
+.hinh9{
+    grid-area: hinh9;
+}
+.hinh10{
+    grid-area: hinh10;
+}
+.hinh11{
+    grid-area: hinh11;
+}
+.hinh12{
+    grid-area: hinh12;
+}
+.hinh13{
+    grid-area: hinh13;
+}
+.hinh14{
+    grid-area: hinh14;
+}
+.hinh15{
+    grid-area: hinh15;
+}
+.hinh16{
+    grid-area: hinh16;
+}
+.hinh17{
+    grid-area: hinh17;
+}
+.hinh18{
+    grid-area: hinh18;
+}
+.hinh19{
+    grid-area: hinh19;
+}
+.hinh20{
+    grid-area: hinh20;
+}
+.hinh21{
+    grid-area: hinh21;
+}
+.hinh22{
+    grid-area: hinh22;
+}
+.hinh23{
+    grid-area: hinh23;
+}
+.hinh24{
+    grid-area: hinh24;
+}
+.hang1{
+    grid-area: hang1;
+    border: 1px solid black;
+}
+.hang2{
+    grid-area: hang2;
+    border: 1px solid black;
+}
+.hang3{
+    grid-area: hang3;
+    border: 1px solid black;
+}
+.hang4{
+    grid-area: hang4;
+    border: 1px solid black;
+}
+.hang5{
+    grid-area: hang5;
+    border: 1px solid black;
+}
+.hang6{
+    grid-area: hang6;
+    border: 1px solid black;
+}
+.hinhgiay1{
+    grid-area: hinhgiay1;
+}
+.hinhgiay2{
+    grid-area: hinhgiay2;
+}
+.hinhgiay3{
+    grid-area: hinhgiay3;
+}
+.hinhgiay4{
+    grid-area: hinhgiay4;
+}
+.hinhgiay5{
+    grid-area: hinhgiay5;
+}
+.hinhgiay6{
+    grid-area: hinhgiay6;
+}
+.hang1 h3{
+    text-align: center;
+    padding: 5px;
+    margin-top: 0.2rem;
+    font-size: 50px;
+}
+.hang2 h3{
+    text-align: center;
+    padding: 5px;
+    margin-top: 0.2rem;
+    font-size: 50px;
+
+}
+.hang3 h3{
+    text-align: center;
+    padding: 5px;
+    margin-top: 0.2rem;
+    font-size: 50px;
+}
+.hang4 h3{
+    text-align: center;
+    padding: 5px;
+    margin-top: 0.2rem;
+    font-size: 50px;
+}
+.hang5 h3{
+    text-align: center;
+    padding: 5px;
+    margin-top: 0.2rem;
+    font-size: 50px;
+}
+.hang6 h3{
+    text-align: center;
+    padding: 5px;
+    margin-top: 0.2rem;
+    font-size: 50px;
+}

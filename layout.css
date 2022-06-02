@@ -1,0 +1,42 @@
+.body{
+    margin: 0;
+}
+.khung{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    grid-area: logo;
+    font-size: 45px;
+    background-image: linear-gradient(#F15454 , #D15FD0, #3646E2);
+}
+.logo a{
+    font-family: 'Rampart One', cursive;
+    color: #333;
+    text-shadow: 2px 2px black;
+}
+.menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+  }
+.menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+.menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
